@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.bitcoincashj.examples;
 
-import org.bitcoinj.core.listeners.PeerConnectedEventListener;
-import org.bitcoinj.core.listeners.PeerDisconnectedEventListener;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Peer;
-import org.bitcoinj.core.PeerAddress;
-import org.bitcoinj.core.VersionMessage;
-import org.bitcoinj.net.discovery.DnsDiscovery;
-import org.bitcoinj.net.discovery.PeerDiscoveryException;
-import org.bitcoinj.net.NioClientManager;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.utils.BriefLogFormatter;
+import org.bitcoincashj.core.listeners.PeerConnectedEventListener;
+import org.bitcoincashj.core.listeners.PeerDisconnectedEventListener;
+import org.bitcoincashj.core.NetworkParameters;
+import org.bitcoincashj.core.Peer;
+import org.bitcoincashj.core.PeerAddress;
+import org.bitcoincashj.core.VersionMessage;
+import org.bitcoincashj.net.discovery.DnsDiscovery;
+import org.bitcoincashj.net.discovery.PeerDiscoveryException;
+import org.bitcoincashj.net.NioClientManager;
+import org.bitcoincashj.params.MainNetParams;
+import org.bitcoincashj.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;

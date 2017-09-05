@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.bitcoincashj.examples;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.bitcoincashj.core.*;
+import org.bitcoincashj.params.TestNet3Params;
+import org.bitcoincashj.store.BlockStore;
+import org.bitcoincashj.store.MemoryBlockStore;
+import org.bitcoincashj.wallet.Wallet;
+import org.bitcoincashj.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import java.io.File;
 

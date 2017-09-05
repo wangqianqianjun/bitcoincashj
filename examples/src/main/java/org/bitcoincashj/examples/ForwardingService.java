@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.bitcoincashj.examples;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.crypto.KeyCrypterException;
-import org.bitcoinj.kits.WalletAppKit;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.RegTestParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.bitcoincashj.core.*;
+import org.bitcoincashj.crypto.KeyCrypterException;
+import org.bitcoincashj.kits.WalletAppKit;
+import org.bitcoincashj.params.MainNetParams;
+import org.bitcoincashj.params.RegTestParams;
+import org.bitcoincashj.params.TestNet3Params;
+import org.bitcoincashj.utils.BriefLogFormatter;
+import org.bitcoincashj.wallet.Wallet;
+import org.bitcoincashj.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

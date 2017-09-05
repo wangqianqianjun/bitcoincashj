@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.tools;
+package org.bitcoincashj.tools;
 
-import org.bitcoinj.core.listeners.NewBestBlockListener;
-import org.bitcoinj.core.*;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.params.RegTestParams;
-import org.bitcoinj.params.TestNet3Params;
-import org.bitcoinj.store.BlockStore;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.utils.Threading;
+import org.bitcoincashj.core.listeners.NewBestBlockListener;
+import org.bitcoincashj.core.*;
+import org.bitcoincashj.params.MainNetParams;
+import org.bitcoincashj.params.RegTestParams;
+import org.bitcoincashj.params.TestNet3Params;
+import org.bitcoincashj.store.BlockStore;
+import org.bitcoincashj.store.MemoryBlockStore;
+import org.bitcoincashj.utils.BriefLogFormatter;
+import org.bitcoincashj.utils.Threading;
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
 import joptsimple.OptionParser;

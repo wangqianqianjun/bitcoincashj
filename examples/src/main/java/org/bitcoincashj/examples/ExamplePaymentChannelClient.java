@@ -15,22 +15,22 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.bitcoincashj.examples;
 
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
-import org.bitcoinj.core.*;
-import org.bitcoinj.kits.WalletAppKit;
-import org.bitcoinj.params.RegTestParams;
-import org.bitcoinj.protocols.channels.PaymentChannelClient;
-import org.bitcoinj.protocols.channels.PaymentChannelClientConnection;
-import org.bitcoinj.protocols.channels.StoredPaymentChannelClientStates;
-import org.bitcoinj.protocols.channels.ValueOutOfRangeException;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.WalletExtension;
+import org.bitcoincashj.core.*;
+import org.bitcoincashj.kits.WalletAppKit;
+import org.bitcoincashj.params.RegTestParams;
+import org.bitcoincashj.protocols.channels.PaymentChannelClient;
+import org.bitcoincashj.protocols.channels.PaymentChannelClientConnection;
+import org.bitcoincashj.protocols.channels.StoredPaymentChannelClientStates;
+import org.bitcoincashj.protocols.channels.ValueOutOfRangeException;
+import org.bitcoincashj.utils.BriefLogFormatter;
+import org.bitcoincashj.utils.Threading;
+import org.bitcoincashj.wallet.Wallet;
+import org.bitcoincashj.wallet.WalletExtension;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.FutureCallback;
@@ -46,7 +46,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
 
-import static org.bitcoinj.core.Coin.CENT;
+import static org.bitcoincashj.core.Coin.CENT;
 
 /**
  * Simple client that connects to the given host, opens a channel, and pays one cent.

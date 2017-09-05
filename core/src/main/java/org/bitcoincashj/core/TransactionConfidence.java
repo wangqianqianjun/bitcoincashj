@@ -87,7 +87,7 @@ public class TransactionConfidence {
          * announced and is considered valid by the network. A pending transaction will be announced if the containing
          * wallet has been attached to a live {@link PeerGroup} using {@link PeerGroup#addWallet(Wallet)}.
          * You can estimate how likely the transaction is to be included by connecting to a bunch of nodes then measuring
-         * how many announce it, using {@link org.bitcoinj.core.TransactionConfidence#numBroadcastPeers()}.
+         * how many announce it, using {@link org.bitcoincashj.core.TransactionConfidence#numBroadcastPeers()}.
          * Or if you saw it from a trusted peer, you can assume it's valid and will get mined sooner or later as well.
          */
         PENDING(2),
@@ -164,7 +164,7 @@ public class TransactionConfidence {
         /** An enum that describes why a transaction confidence listener is being invoked (i.e. the class of change). */
         enum ChangeReason {
             /**
-             * Occurs when the type returned by {@link org.bitcoinj.core.TransactionConfidence#getConfidenceType()}
+             * Occurs when the type returned by {@link org.bitcoincashj.core.TransactionConfidence#getConfidenceType()}
              * has changed. For example, if a PENDING transaction changes to BUILDING or DEAD, then this reason will
              * be given. It's a high level summary.
              */

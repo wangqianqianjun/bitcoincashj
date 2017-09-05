@@ -316,7 +316,7 @@ public final class ClientState {
                 org.bitcoincashj.protocols.channels.ClientState.StoredClientPaymentChannels.class, org.bitcoincashj.protocols.channels.ClientState.StoredClientPaymentChannels.Builder.class);
       }
 
-      // Construct using org.bitcoinj.protocols.channels.ClientState.StoredClientPaymentChannels.newBuilder()
+      // Construct using org.bitcoincashj.protocols.channels.ClientState.StoredClientPaymentChannels.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1454,7 +1454,7 @@ public final class ClientState {
                 org.bitcoincashj.protocols.channels.ClientState.StoredClientPaymentChannel.class, org.bitcoincashj.protocols.channels.ClientState.StoredClientPaymentChannel.Builder.class);
       }
 
-      // Construct using org.bitcoinj.protocols.channels.ClientState.StoredClientPaymentChannel.newBuilder()
+      // Construct using org.bitcoincashj.protocols.channels.ClientState.StoredClientPaymentChannel.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2173,7 +2173,7 @@ public final class ClientState {
       "\022\021\n\tvalueToMe\030\005 \002(\004\022\022\n\nrefundFees\030\006 \002(\004\022" +
       "\034\n\024closeTransactionHash\030\007 \001(\014\022\027\n\014majorVe" +
       "rsion\030\t \001(\r:\0011\022\022\n\nexpiryTime\030\n \001(\004\022\021\n\tse",
-      "rverKey\030\013 \001(\014B.\n\037org.bitcoinj.protocols." +
+      "rverKey\030\013 \001(\014B.\n\037org.bitcoincashj.protocols." +
       "channelsB\013ClientState"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

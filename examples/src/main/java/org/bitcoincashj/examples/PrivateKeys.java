@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.bitcoincashj.examples;
 
-import org.bitcoinj.core.*;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.store.MemoryBlockStore;
-import org.bitcoinj.wallet.Wallet;
+import org.bitcoincashj.core.*;
+import org.bitcoincashj.params.MainNetParams;
+import org.bitcoincashj.store.MemoryBlockStore;
+import org.bitcoincashj.wallet.Wallet;
 
 import java.math.BigInteger;
 import java.net.InetAddress;

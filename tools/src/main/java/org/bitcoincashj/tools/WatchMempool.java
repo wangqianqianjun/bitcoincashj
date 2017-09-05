@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.tools;
+package org.bitcoincashj.tools;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.bitcoinj.core.listeners.*;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.core.Peer;
-import org.bitcoinj.core.PeerGroup;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.net.discovery.DnsDiscovery;
-import org.bitcoinj.params.MainNetParams;
-import org.bitcoinj.utils.BriefLogFormatter;
-import org.bitcoinj.wallet.DefaultRiskAnalysis;
-import org.bitcoinj.wallet.RiskAnalysis.Result;
+import org.bitcoincashj.core.listeners.*;
+import org.bitcoincashj.core.NetworkParameters;
+import org.bitcoincashj.core.Peer;
+import org.bitcoincashj.core.PeerGroup;
+import org.bitcoincashj.core.Transaction;
+import org.bitcoincashj.net.discovery.DnsDiscovery;
+import org.bitcoincashj.params.MainNetParams;
+import org.bitcoincashj.utils.BriefLogFormatter;
+import org.bitcoincashj.wallet.DefaultRiskAnalysis;
+import org.bitcoincashj.wallet.RiskAnalysis.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

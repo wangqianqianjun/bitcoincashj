@@ -26,7 +26,7 @@ public interface NewBestBlockListener {
     /**
      * Called when a new block on the best chain is seen, after relevant
      * transactions are extracted and sent to us via either
-     * {@link TransactionReceivedInBlockListener#receiveFromBlock(org.bitcoinj.core.Transaction, org.bitcoinj.core.StoredBlock, org.bitcoinj.core.BlockChain.NewBlockType, int relativityOffset)}
+     * {@link TransactionReceivedInBlockListener#receiveFromBlock(org.bitcoincashj.core.Transaction, org.bitcoincashj.core.StoredBlock, org.bitcoincashj.core.BlockChain.NewBlockType, int relativityOffset)}
      * or {@link TransactionReceivedInBlockListener#notifyTransactionIsInBlock(org.bitcoincashj.core.Sha256Hash, org.bitcoincashj.core.StoredBlock, org.bitcoincashj.core.BlockChain.NewBlockType, int)}.
      * If this block is causing a re-organise to a new chain, this method is NOT
      * called even though the block may be the new best block: your reorganize

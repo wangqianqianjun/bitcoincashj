@@ -348,7 +348,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.PeerAddress.class, org.bitcoincashj.wallet.Protos.PeerAddress.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.PeerAddress.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.PeerAddress.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -919,7 +919,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.EncryptedData.class, org.bitcoincashj.wallet.Protos.EncryptedData.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.EncryptedData.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.EncryptedData.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1767,7 +1767,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.DeterministicKey.class, org.bitcoincashj.wallet.Protos.DeterministicKey.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.DeterministicKey.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.DeterministicKey.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -3280,7 +3280,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.Key.class, org.bitcoincashj.wallet.Protos.Key.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.Key.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.Key.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -4605,7 +4605,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.Script.class, org.bitcoincashj.wallet.Protos.Script.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.Script.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.Script.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -5314,7 +5314,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.TransactionInput.class, org.bitcoincashj.wallet.Protos.TransactionInput.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.TransactionInput.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.TransactionInput.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -6140,7 +6140,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.TransactionOutput.class, org.bitcoincashj.wallet.Protos.TransactionOutput.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.TransactionOutput.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.TransactionOutput.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -7394,7 +7394,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.TransactionConfidence.class, org.bitcoincashj.wallet.Protos.TransactionConfidence.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.TransactionConfidence.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.TransactionConfidence.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -9615,7 +9615,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.Transaction.class, org.bitcoincashj.wallet.Protos.Transaction.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.Transaction.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.Transaction.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -11757,7 +11757,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.ScryptParameters.class, org.bitcoincashj.wallet.Protos.ScryptParameters.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.ScryptParameters.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.ScryptParameters.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -12523,7 +12523,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.Extension.class, org.bitcoincashj.wallet.Protos.Extension.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.Extension.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.Extension.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -13203,7 +13203,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.Tag.class, org.bitcoincashj.wallet.Protos.Tag.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.Tag.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.Tag.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -13822,7 +13822,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.TransactionSigner.class, org.bitcoincashj.wallet.Protos.TransactionSigner.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.TransactionSigner.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.TransactionSigner.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -15535,7 +15535,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.Wallet.class, org.bitcoincashj.wallet.Protos.Wallet.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.Wallet.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.Wallet.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -18572,7 +18572,7 @@ public final class Protos {
                 org.bitcoincashj.wallet.Protos.ExchangeRate.class, org.bitcoincashj.wallet.Protos.ExchangeRate.Builder.class);
       }
 
-      // Construct using org.bitcoinj.wallet.Protos.ExchangeRate.newBuilder()
+      // Construct using org.bitcoincashj.wallet.Protos.ExchangeRate.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
