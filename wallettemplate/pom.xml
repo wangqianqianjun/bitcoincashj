@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.bitcoincashj</groupId>
         <artifactId>bitcoincashj-parent</artifactId>
-        <version>0.14.4</version>
+        <version>0.14.5</version>
     </parent>
 
     <artifactId>wallettemplate</artifactId>
@@ -56,8 +56,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.bitcoincashj</groupId>
-            <artifactId>bitcoincashj-core</artifactId>
+            <groupId>org.bitcoinj</groupId>
+            <artifactId>bitcoinj-core</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
